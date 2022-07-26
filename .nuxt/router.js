@@ -3,13 +3,13 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _18d1ec4e = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages_admin_index" */))
-const _496520cb = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages_cart" */))
-const _037aa31e = () => interopDefault(import('..\\pages\\checkout.vue' /* webpackChunkName: "pages_checkout" */))
-const _35997928 = () => interopDefault(import('..\\pages\\success.vue' /* webpackChunkName: "pages_success" */))
-const _d31c33f4 = () => interopDefault(import('..\\pages\\my\\orders\\index.vue' /* webpackChunkName: "pages_my_orders_index" */))
-const _380effa2 = () => interopDefault(import('..\\pages\\my\\profile.vue' /* webpackChunkName: "pages_my_profile" */))
-const _ade9fc92 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _2ff4249d = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages_admin_index" */))
+const _2250181a = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages_cart" */))
+const _21993380 = () => interopDefault(import('..\\pages\\checkout.vue' /* webpackChunkName: "pages_checkout" */))
+const _2cdb0b79 = () => interopDefault(import('..\\pages\\success.vue' /* webpackChunkName: "pages_success" */))
+const _8a7cf1d2 = () => interopDefault(import('..\\pages\\my\\orders\\index.vue' /* webpackChunkName: "pages_my_orders_index" */))
+const _96a5fd1a = () => interopDefault(import('..\\pages\\my\\profile.vue' /* webpackChunkName: "pages_my_profile" */))
+const _25021770 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -29,31 +29,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/admin",
-    component: _18d1ec4e,
+    component: _2ff4249d,
     name: "admin"
   }, {
     path: "/cart",
-    component: _496520cb,
+    component: _2250181a,
     name: "cart"
   }, {
     path: "/checkout",
-    component: _037aa31e,
+    component: _21993380,
     name: "checkout"
   }, {
     path: "/success",
-    component: _35997928,
+    component: _2cdb0b79,
     name: "success"
   }, {
     path: "/my/orders",
-    component: _d31c33f4,
+    component: _8a7cf1d2,
     name: "my-orders"
   }, {
     path: "/my/profile",
-    component: _380effa2,
+    component: _96a5fd1a,
     name: "my-profile"
   }, {
     path: "/",
-    component: _ade9fc92,
+    component: _25021770,
     name: "index"
   }],
 
